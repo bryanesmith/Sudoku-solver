@@ -30,6 +30,9 @@ class SudokuPuzzle {
 	
 	// Set a value on the board. Used for laying out board and solving
 	void setBoardValue(int x_cord, int y_cord, int value);
+  
+        // Get a value on the board.
+	int getBoardValue(int x_cord, int y_cord);
 	
 	// Solve the puzzle. Returns true if in solved state, returns false if unsolvable.
 	bool solve();
