@@ -113,6 +113,10 @@ bool SudokuPuzzle::solve() {
   return solve(0,0);
 } // SudokuPuzzle::solve()
 
+int SudokuPuzzle::getBoardValue(int x_cord, int y_cord) {
+	return board[x_cord][y_cord];
+} // SudokuPuzzle::getBoardValue(int, int)
+
 /* 
  * Internal method that recursively solves the puzzle.
  *
