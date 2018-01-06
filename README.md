@@ -1,25 +1,26 @@
-===== DESCRIPTION
+## Description
 
 A brute-force Sudoku solver written in C++.
 
-===== LICENSE/RIGHTS
+## License
 
 This project is the public domain under the terms of CC0: http://creativecommons.org/publicdomain/zero/1.0/
 
-===== DEPENDENCIES 
+## Dependencies
 
 GNU C++ compiler, or any other compiler.
 
-===== BUILD
+## Build
 
 Run the build script: build.sh
 
 An executable will be created: sudoku-solver
 
-===== MORE INFORMATION
+## Overview
 
 After building the executable, sudoku-solver, run it:
 
+```
 |   $ ./sudoku-solver 
 |   -------------------------------
 |   | 1  .  . | .  .  7 | .  9  . |
@@ -49,6 +50,7 @@ After building the executable, sudoku-solver, run it:
 |   | 2  4  1 | 9  3  5 | 8  6  7 |
 |   | 8  9  7 | 2  6  1 | 3  5  4 |
 |   -------------------------------
+```
 
-To modify the Sudoku puzzle, edit: main.cpp
+To modify the Sudoku puzzle, edit: `main.cpp`
 
