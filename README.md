@@ -16,6 +16,12 @@ Run the build script: build.sh
 
 An executable will be created: sudoku-solver
 
+OR
+
+Create a directory: mkdir build
+go to the build directory and Run the cmake: cd build && cmake ..
+Then run make: make
+
 ## Overview
 
 After building the executable, sudoku-solver, run it:
